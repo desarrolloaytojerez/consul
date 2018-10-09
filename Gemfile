@@ -50,18 +50,9 @@ gem 'sprockets', '~> 3.7.2'
 gem 'turbolinks', '~> 2.5.3'
 gem 'turnout', '~> 2.4.0'
 gem 'uglifier', '~> 4.1.2'
-gem 'unicorn', '~> 5.4.1', platforms: :ruby
 gem 'whenever', '~> 0.10.0', require: false
 gem 'globalize', '~> 5.0.0'
 gem 'globalize-accessors', '~> 0.2.1'
-
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-source 'http://insecure.rails-assets.org' do
-  gem 'rails-assets-leaflet'
-  gem 'rails-assets-markdown-it', '~> 8.2.1'
-end
 
 group :development, :test do
   gem 'bullet', '~> 5.7.0'
